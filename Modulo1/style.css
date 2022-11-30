@@ -114,9 +114,7 @@ ul {
 }
 
 /* Nav */
-nav {
-    margin: 10px;
-}
+
 
 #signup {
     display: flex;
@@ -182,13 +180,28 @@ nav {
 }
 /* Section */
 
-section div {
-    border: 1px solid black;
+.ads1 {
+    width: 600px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
 }
 
 /* Aside */
 
-aside div {
-    border: 1px solid black;
+aside {
+    
+}
+
+.ads2 {
+    border: 1px solid lightgrey;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.picture {
     
 }

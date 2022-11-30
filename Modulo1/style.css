@@ -184,6 +184,7 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 600px;
 }
 
 .ads1 {
@@ -194,23 +195,40 @@ section {
     align-items: center;
     border: 1px solid lightgrey;
     margin-left: 10px;
-
+    
 }
 
 .tags {
+    width: 575px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 10px;
-
+    margin: 10px;          
 }
 
 .tag {
     border: 1px solid lightgrey;
     border-radius: 100px;
-    padding: 5px 15px;
+    padding: 5px 13px;
+    margin-left: 5px;
+    cursor: pointer;
 }
 
+.keyword {
+    background: rgb(236, 236, 236);
+    margin: 4px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.tag:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.keyword:hover {
+    background-color: lightgrey;
+}
 /* Aside */
 
 .ads2 { 

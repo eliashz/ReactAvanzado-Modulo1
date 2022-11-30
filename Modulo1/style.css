@@ -159,13 +159,16 @@ nav {
 .star {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     font-size: 0.9em;
-
 }
 
 .star span {
     color: lightgrey;
+}
+
+.star, .icons {
+    padding: 0px 10px;
+    margin: 5px -10px;
 }
 
 .star span:hover {
@@ -178,7 +181,7 @@ nav {
 
 .star:hover,
 .icons:hover {
-    background: lightgrey;
+    background: rgb(236, 236, 236);
 }
 /* Section */
 

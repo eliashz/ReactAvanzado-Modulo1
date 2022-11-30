@@ -189,6 +189,7 @@ ul {
 .icons:hover {
     background: rgb(236, 236, 236);
 }
+
 /* Section */
 
 section {
@@ -244,20 +245,20 @@ section {
 
 /* GIFs */
 .gifs {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 550px;
+    margin-top: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 30px;
+}
+
+.titleName, .titleIcons{
+    display: flex;
+    align-items: center;
 }
 
 .titleContainer {
     display: flex;
-    justify-content: flex-end;
-}
-
-.titleName, .titleIcons {
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .circle {
@@ -271,12 +272,25 @@ section {
     font-size: .9em;
 }
 
+.userName {
+    margin: 0 8px;
+}
+
 .hour, .titleIcons {
     color: lightgrey;
 }
 
 .titleIcons span {
     font-size: 1.3em;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 3px;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+.userName, .circle, .gifTitle {
+    cursor: pointer;
 }
 
 .gifTitle {
@@ -291,6 +305,16 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+.titleIcons span:hover {
+    border-radius: 100px;
+    padding: 2px;
+    background-color: rgb(234, 234, 234);
+}
+
+.gifTitle:hover {
+    color: blueviolet;
+} 
 
 /* Aside */
 

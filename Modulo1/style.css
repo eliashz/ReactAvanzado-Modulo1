@@ -208,6 +208,7 @@ section {
     align-items: center;
     border: 1px solid lightgrey;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .tags {
@@ -302,35 +303,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    cursor: pointer;
 
-.titleIcons span:hover {
-    border-radius: 100px;
-    padding: 2px;
-    background-color: rgb(234, 234, 234);
-}
-
-.gifTitle:hover {
-    color: blueviolet;
-} 
-
-/* Aside */
-
-.ads2 { 
-    margin: 0 0 20px 10px;
-    width: 300px;
-}
-
-.picture {
-    border: 1px solid lightgrey;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.ads2 h6 {
-    color: grey;
 }
 
 .like {
@@ -355,11 +329,45 @@ section {
 
 .titleIcons img:hover {
     background-color: lightgrey;
-
 }
 
 .like:hover {
     background-color: rgb(236, 236, 236);
+}
+
+.titleIcons span:hover {
+    border-radius: 100px;
+    padding: 2px;
+    background-color: rgb(234, 234, 234);
+}
+
+.gifTitle:hover {
+    color: blueviolet;
+} 
+
+/* Aside */
+
+.ads2 { 
+    margin: 0 0 20px 10px;
+    width: 300px;
+    cursor: pointer;
+
+}
+
+.picture {
+    border: 1px solid lightgrey;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads2 h6 {
+    color: grey;
+}
+
+.ads2 h4:hover {
+    text-decoration: underline;
 }
 
 @media(max-width: 1280px) {

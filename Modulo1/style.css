@@ -187,6 +187,8 @@ ul {
     justify-content: center;
     align-items: center;
     border: 1px solid lightgrey;
+    margin-left: 10px;
+
 }
 
 /* Aside */
@@ -195,13 +197,19 @@ aside {
     
 }
 
-.ads2 {
-    border: 1px solid lightgrey;
-    width: 200px;
-    height: 150px;
-    margin-bottom: 5px;
+.ads2 { 
+    margin: 0 0 20px 10px;
+    width: 300px;
 }
 
 .picture {
+    border: 1px solid lightgrey;
+    height: 150px;
     
 }
+
+.ads2 h6 {
+    color: grey;
+}
+
+@media

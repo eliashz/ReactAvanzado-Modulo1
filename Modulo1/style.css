@@ -247,6 +247,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 550px;
 }
 
 .titleContainer {
@@ -278,10 +279,17 @@ section {
     font-size: 1.3em;
 }
 
+.gifTitle {
+    font-size: 1.2em;
+    margin: 10px 0
+}
+
 .gif {
-    width: 550px;
     height: 550px;
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Aside */

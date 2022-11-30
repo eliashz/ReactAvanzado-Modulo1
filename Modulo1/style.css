@@ -125,6 +125,7 @@ nav {
     border: 1px solid lightgrey;
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 #signup p {
@@ -136,10 +137,6 @@ nav {
     padding: 10px 60px;
     cursor: pointer;
 }
-
-.nineGag {
-    margin-top: 15x;
-} 
 
 .title {
     font-size: 1.2em;
@@ -156,6 +153,10 @@ nav {
     margin-right: 8px;
 }
 
+.star, .icons {
+    cursor: pointer;
+}
+
 .star {
     display: flex;
     justify-content: space-between;
@@ -167,16 +168,12 @@ nav {
 }
 
 .star, .icons {
-    padding: 0px 10px;
-    margin: 5px -10px;
+    padding: 7px 15px;
+    margin: 0px -15px;
 }
 
 .star span:hover {
     color: grey;
-}
-
-.star, .icons {
-    cursor: pointer;
 }
 
 .star:hover,
@@ -185,13 +182,13 @@ nav {
 }
 /* Section */
 
-section {
+section div {
     border: 1px solid black;
 }
 
 /* Aside */
 
-aside {
+aside div {
     border: 1px solid black;
     
 }

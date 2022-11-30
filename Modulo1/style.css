@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.7em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid lightgrey;
+}
+
+.menu {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu ul li {
+    margin-left: 15px;
+}
+
+#logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
+/* Navicon */
+
+#menu_icon {
+    width: 24px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+  
+#menu_icon::after {
+    margin-top: 1px;
+    content: '';
+    width: 24px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0px 0 #000,
+                0 6px 0 #000,
+                0 12px 0 #000;
+}
+
+#login {
+    color: grey;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    background: blue;
+    color: white;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+#button span {
+    margin-right: 10px;
+    font-size: 1.3em;
+}
+
+/* Icons */
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

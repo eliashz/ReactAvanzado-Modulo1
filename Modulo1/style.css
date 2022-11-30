@@ -69,6 +69,13 @@ ul {
 #login {
     color: grey;
 }
+#search {
+    margin-top: 3px;
+}
+
+#account {
+    font-size: 3em;
+}
 
 #button {
     display: flex;

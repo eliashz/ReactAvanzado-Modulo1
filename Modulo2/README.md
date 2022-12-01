@@ -1,6 +1,5 @@
 # Módulo 2: Introducción y Setup
 
-## Instrucciones
 
 ## Documentación
 * [Vite](https://es.vitejs.dev/guide/)

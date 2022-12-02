@@ -8,3 +8,7 @@ Clonar el repositorio y abrir el archivo `index.html` en el navegador o usar los
 
 ### Enlaces
 * [CodeSandbox](https://codesandbox.io/)
+
+### Vídeos
+* [CSS **Web Dev Simplified**](https://youtu.be/1PnVor36_40)
+* [Flexbox **Web Dev Simplified**](https://www.youtube.com/watch?v=fYq5PXgSsbE)
